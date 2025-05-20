@@ -6,7 +6,7 @@ pipeline {
         SSH_KEY = credentials('ssh-key-ec2-auth')
         PORT = credentials('port')
         SECRET_KEY = credentials('secret-key')
-        SERVER_IP = 34.196.198.8  // Agrega esta credencial en Jenkins
+        SERVER_IP = '34.196.198.8' // Agrega esta credencial en Jenkins
         REMOTE_PATH = '/home/ubuntu/service-auth'
         PM2_NAME = 'health-service'  // Nombre único para PM2
     }
