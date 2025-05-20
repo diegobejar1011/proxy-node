@@ -11,5 +11,5 @@ const app = (0, express_1.default)();
 app.use((0, morgan_1.default)('dev'));
 app.use("", AuthRouter_1.AuthRouter);
 app.listen(config_1.config.port, () => {
-    console.log("Starting proxy");
+    console.log("Starting proxy to unique endpoit...");
 });
