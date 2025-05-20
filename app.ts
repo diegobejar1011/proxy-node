@@ -12,5 +12,5 @@ app.use(morgan('dev'));
 app.use("", AuthRouter);
 
 app.listen(config.port, () => {
-    console.log("Starting proxy to unique endpoit...");
+    console.log("Starting proxy to unique endpoit... go to work!");
 });
